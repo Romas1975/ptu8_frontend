@@ -46,6 +46,10 @@ def edvard_p():
 @app.route('/egle/')
 def egle():
     return render_template("egle.html")
+@app.route('/romualdas/')
+def romualdas():
+    return render_template("romualdas.html")
+
 
 
 if __name__ == "__main__":
